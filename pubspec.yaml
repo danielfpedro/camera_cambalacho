@@ -2,7 +2,7 @@ name: camera_cambalacho
 description: A Flutter plugin for controlling the camera. Supports previewing
   the camera feed, capturing images and video, and streaming image buffers to
   Dart.
-repository: https://github.com/danielfpedro/plugins/tree/master/packages/camera/camera
+repository: https://github.com/danielfpedro/camera_cambalacho
 issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+camera%22
 version: 0.9.4+5
 
@@ -14,7 +14,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.flutter.plugins.camera_cambalacho
+        package: io.flutter.plugins.camera
         pluginClass: CameraPlugin
       ios:
         pluginClass: CameraPlugin
